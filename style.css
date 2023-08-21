@@ -1,0 +1,132 @@
+/* 
+Developer: Terry
+Date: 9/8/23
+*/
+
+body {
+    background-color: black ;
+}
+
+#container {
+    width: 1024px;
+    /* background-color: lightgray; */
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(Images/CheersBackground.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-image: center;
+    background-position-x: -120px;
+    background-position-y: -10px;
+}
+
+header {
+    width: 1024px;
+    height: 120px;
+    /* background-color: rgb(218, 254, 255); */
+    text-align: center;
+}
+
+nav {
+    width: 1024px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    padding-left: 112px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 5px;
+    /* margin-left: 0;
+    margin-right: 0; */
+}
+
+.active {
+    color: lightskyblue;
+}
+
+main {
+    width: 1024px;
+    height: 850px;
+    /* background-color: #f5f2c2; */
+    text-align: center;
+}
+
+main p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+main a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 2.25rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+main u {
+    color: yellow;
+}
+
+footer {
+    width: 1024px;
+    height: 50px;
+    /* background-color: #c2f5cf; */
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+footer p {
+    padding: 10px 50px;
+    text-align: center;
+}
+
+footer a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+email {
+    color: lightblue;
+}
+
+.logo {
+    height: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+p {
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+    margin-left: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+}
